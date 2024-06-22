@@ -431,16 +431,267 @@
 // const sinf = ["Anvar", "Dilshod", "Dilshoda", "Temurjn", "Polat"];
 // console.log(oquvchilartekshiruvi(sinf));
 // 15-masala
-function talabalar(gurux) {
-  return gurux.lastIndexOf("Anvar");
-}
+// function talabalar(gurux) {
+//   return gurux.lastIndexOf("Anvar");
+// }
 
-const gurux = ["Anvar", "Dilshod", "Dilshoda", "Temurjn", "Anvar", "Polat"];
-console.log(talabalar(gurux));
-16 - masala;
-function talabalar(gurux) {
-  return gurux.splice(0, 1);
-}
+// const gurux = ["Anvar", "Dilshod", "Dilshoda", "Temurjn", "Anvar", "Polat"];
+// console.log(talabalar(gurux));
+// 16 - masala;
+// function talabalar(gurux) {
+//   return gurux.splice(0, 1);
+// }
 
-const gurux = ["Anvar", "Dilshod", "Dilshoda", "Temurjn", "Anvar", "Polat"];
-console.log(talabalar(gurux));
+// const gurux = ["Anvar", "Dilshod", "Dilshoda", "Temurjn", "Anvar", "Polat"];
+// console.log(talabalar(gurux));
+
+// Asosiy metodlarga oid masala
+// 1-masala
+
+// let sonlar = [1, 2, 3, 4, 5];
+// function uzunligi(sonlar) {
+//   return sonlar.length;
+// }
+// console.log(uzunligi(sonlar));
+// 2-masala
+// let sonlar = [12, 13, 11, 14, 15, 18, 10];
+// function tostring(sonlar) {
+//   let result = sonlar.toString();
+//   return sonlar;
+// }
+// console.log(sonlar);
+// 3-masala
+// let sonlar = [12, 13, 11, 14, 15, 18, 10];
+// function tostring(sonlar) {
+//   let result = sonlar.Join(" ,");
+//   return sonlar;
+// }
+// console.log(sonlar);
+// 4-masala
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// function elementQoshish(mashina, element) {
+//   mashina.push(element);
+//   return mashina;
+// }
+// console.log(elementQoshish(mashina, "ferari"));
+// 5-masala
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// function elementolish(mashina) {
+//   mashina.pop();
+//   return mashina;
+// }
+// console.log(elementQoshish(mashina));
+// 6-Masala
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// function elementolish(mashina) {
+//   mashina.shift();
+//   return mashina;
+// }
+// console.log(elementQoshish(mashina));
+// 7-masala
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// function elementQoshish(mashina, element) {
+//   mashina.unshift(element);
+//   return mashina;
+// }
+// console.log(elementQoshish(mashina, "ferari"));
+// 8-masala
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// let sonlar = [12, 22, 11, 3, 45365767, 56457, 342342];
+// function elementQoshish(mashina) {
+//   let result = mashina.concat(sonlar, "rolsroys");
+//   return result;
+// }
+// console.log(elementQoshish(mashina));
+// 9-masala
+// let sonlar = [12, 21, 3432, 345, 432, 2, 3, 5, 67, 2341, 1234, 4323, 45, 222];
+// function splicegaoid(sonlar, element) {
+//   let result = sonlar.splice(2, element, 23);
+//   return result;
+// }
+// console.log(splicegaoid(sonlar, 10));
+// 10-masala
+// let sonlar = [12, 21, 3432, 345, 432, 2, 3, 5, 67, 2341, 1234, 4323, 45, 222];
+// function splicegaoid(sonlar, element) {
+//   let result = sonlar.slice(2, element);
+//   return result;
+// }
+// console.log(splicegaoid(sonlar, 5));
+// 11-masala
+// let davlatlar = [
+//   "Ozbekiston",
+//   "qizgiziston",
+//   "tojikiston",
+//   "turkmaniston",
+//   "qozogsiston",
+// ];
+// function uzunlicaniqlash(davlatlar) {
+//   let result = davlatlar.length;
+//   return result;
+// }
+// console.log(uzunlicaniqlash(davlatlar));
+// 12-masala
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   let result = son.toString();
+//   return result;
+// }
+// console.log(stringgaoidmasaa(son));
+// 13-masala
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   let result = son.join(" ");
+//   return result;
+// }
+// console.log(stringgaoidmasaa(son));
+// 14-masala
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   son.push(11111);
+//   son.push(222222);
+//   return son;
+// }
+// console.log(stringgaoidmasaa(son));
+// 15-masla
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   son.pop();
+//   son.pop();
+//   return son;
+// }
+// console.log(stringgaoidmasaa(son));
+// 16-masala
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   son.shift();
+//   son.shift();
+//   return son;
+// }
+// console.log(stringgaoidmasaa(son));
+// 17 - masala
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function stringgaoidmasaa(son) {
+//   son.unshift(11111);
+//   son.unshift(222222);
+//   return son;
+// }
+// console.log(stringgaoidmasaa(son));
+// 18-masala
+// let davlatlar = [
+//   "Ozbekiston",
+//   "qizgiziston",
+//   "tojikiston",
+//   "turkmaniston",
+//   "qozogsiston",
+// ];
+// let mashina = ["bmw", "audi", "mers", "mers"];
+// let son = [32, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 756];
+// function qoshish(davlatlar, mashina, son) {
+//   let result = davlatlar.concat(mashina, son);
+//   return result;
+// }
+// console.log(qoshish(davlatlar, mashina, son));
+// 19-masalal
+// let mashina = [12, 11, 3, 4, 90, 87, 54, 7, 4533, 4342];
+// function elementolish(mashina, element) {
+//   mashina.splice(0, element);
+//   return mashina;
+// }
+// console.log(elementolish(mashina, 2));
+// 20-masala
+// let mashina = [12, 11, 3, 4, 90, 87, 54, 7, 4533, 4342];
+// function elementolish(mashina, element) {
+//   mashina.slice(0, element);
+//   return mashina;
+// }
+// console.log(elementolish(mashina, 2));
+
+// Search metodlariga oid masalalar.
+// 1-masala
+// let davlatlar = [
+//   "Ozbekiston",
+//   "qizgiziston",
+//   "tojikiston",
+//   "turkmaniston",
+//   "qozogsiston",
+// ];
+// function uzunlicaniqlash(davlatlar, element) {
+//   let result = davlatlar.includes(element);
+//   return result;
+// }
+// console.log(uzunlicaniqlash(davlatlar, "qoroqolpoq"));
+// 2-masalal
+// let davlatlar = [
+//   "Ozbekiston",
+//   "qizgiziston",
+//   "tojikiston",
+//   "turkmaniston",
+//   "qozogsiston",
+//   "qizgiziston",
+// ];
+// function uzunlicaniqlash(davlatlar, element) {
+//   let result = davlatlar.indexOf(element);
+//   return result;
+// }
+// console.log(uzunlicaniqlash(davlatlar, "qizgiziston"));
+// 3-masalal
+// let davlatlar = [
+//   "Ozbekiston",
+//   "qizgiziston",
+//   "tojikiston",
+//   "turkmaniston",
+//   "qozogsiston",
+//   "qizgiziston",
+// ];
+// function uzunlicaniqlash(davlatlar, element) {
+//   let result = davlatlar.lastIndexOf(element);
+//   return result;
+// }
+// console.log(uzunlicaniqlash(davlatlar, "qizgiziston"));
+// 4-masala
+// let son = [12, 2, 3, 1235, 54, 65, 34, 33, 11];
+// let result = son.find(function (value) {
+//   return value % 2 == 0;
+// });
+
+// console.log(result);
+// 5-masala
+// let son = [12, 2, 3, 1235, 54, 65, 34, 33, 11];
+// let result = son.findIndex(function (value, index) {
+//   return value % 2 == 0 && index > 2;
+// });
+
+// console.log(result);
+// 6-masalal
+// let viloyatlar = ["fargona", "andijon", "namangan", "toshkent"];
+// function includesda(viloyatlar, element) {
+//   let result = viloyatlar.includes(element);
+//   return result;
+// }
+// console.log(includesda(viloyatlar, "fargona"));
+// 7-masalal
+// let viloyatlar = ["fargona", "andijon", "namangan", "fargona", "toshkent"];
+// function includesda(viloyatlar, element) {
+//   let result = viloyatlar.indexOf(element);
+//   return result;
+// }
+// console.log(includesda(viloyatlar, "fargona"));
+// 8-masala
+// let viloyatlar = ["fargona", "andijon", "namangan", "fargona", "toshkent"];
+// function includesda(viloyatlar, element) {
+//   let result = viloyatlar.lastIndexOf(element);
+//   return result;
+// }
+// console.log(includesda(viloyatlar, "fargona"));
+// 9-masala
+// let son = [12, 23, 34, 4, 55, 667, 78, 89, 90, 123, 234, 345];
+// let result = son.find(function (value) {
+//   return value > 100;
+// });
+// console.log(result);
+// 10-masala
+let son = [12, 23, 34, 4, 55, 667, 78, 89, 90, 123, 234, 345];
+let result = son.findIndex(function (value) {
+  return value < 50;
+});
+console.log(result);
